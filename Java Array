@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class array
+{ 
+public static void main(String args[])
+{
+	int [] array = {1789, 1888, 1234, 2121, 3232, 6767, 3245, 9834, 3456, 9865, 2134, 1111, 2222, 4444, 3424};
+	
+	String [] array2 = {"Java", "Python", "Php", "C#", "C Programming", "C++"};
+	
+	System.out.println("Original numeric array : " + Arrays.toString(array));
+	Arrays.sort(array);
+	System.out.println("Sorted numberic Array : " + Arrays.toString(array));
+	
+	System.out.println("Oringinal numeric : " + Arrays.toString(array2));
+	Arrays.sort(array2);
+	System.out.println("Sorted string array : " + Arrays.toString(array2));
+	
+			
+	}
+}
